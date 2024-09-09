@@ -1,0 +1,226 @@
+/*if the viewport is equal to 600px 0r less than that*/
+@media only screen and (max-width:800px){
+	.main-menu .navbar{
+		padding: 2% !important;
+		margin: 0% !important;
+	}
+	.site-main .site-banner .site-title h1{
+		font-size: 41px !important;
+	}
+	.subscribe-us-area .subscribe{
+		padding: 2%!important;
+		margin: 0%;
+	}
+	.site-main .subscribe-us-area .subscribe form .input-text input{
+		width: 15rem !important;
+	
+	}
+	.site-main .about-area .about-title span{
+		font-size: 36px !important;
+		padding: 0%!important;
+		margin: 0%;
+	}
+	.site-main .about-area .paragraph p{
+		text-align: justify;
+	}
+	.site-main .about-area .about-title{
+		padding: 0%!important;
+		margin: 0%;
+	}
+	.about-image{
+		position: relative;
+		top: ;
+		padding: 0%!important;
+		margin: 0%;
+	}
+	.site-main .brand-area .experience-area h2 {
+		padding: 0%;
+		margin: 0%;
+		
+		position: relative;
+		left: -10% !important;
+	}
+	.site-main .brand-area .experience-area .bg-panel{
+		padding-left: 0% !important;
+		margin-left: 0%;
+		position: relative;
+		left: -50%;
+		
+	}
+	.site-main .brand-area .experience-area .years-area{
+	  background: none; 
+		}
+	.site-main .brand-area .experience-area .call-area{
+		padding-left: 1%;
+		margin-left: 0%;
+		width: 100% !impotant;
+		position: absolute;
+		left: 30%
+	}
+	.container{
+		max-width: 90%;
+	}
+	.site-main .brand-area,
+	.site-main .services-area.services-title,
+	.sitemain .about-area{
+		padding: 3% 4%;
+	}
+	.header_area .main-menu .navbar{
+		padding: 1rem!important;
+	}
+	.button-group button{
+		font: normal 500 18px/40px var(--roboto)!important;
+		
+	}
+	.site-main> .services-area.services{
+		width: 13rem!important;
+	}
+	.services-title {
+		padding-left: 0%!important;
+		
+	}
+	.services-title p{
+		text-align: justify!important;
+	}
+	 .services-title{
+		padding: 3% 10%!important;
+	}
+	
+	.about-area{
+		padding: 3% 10%!important;
+		
+	}
+	.about-area p{
+		text-align: justify!important;
+		padding: 3% 10%!important;
+		
+	}
+	.subscribe-us-area{
+		max-width: 100%!important;
+		padding: 3% 1%!important;
+		background: url(../img/subscribe-bg.png) no-repeat !important;
+	}
+	.subscribe-title{
+		position: relative;
+		left: 5%;
+	}
+	.subscribe-title p{
+		color: lightgray!important;
+	}
+	form{
+		padding: 3% 6%!important;
+	}
+	.subscribe-us-area button{
+		position: relative;
+		left: 65%;
+		top: 2%!important;
+	}
+}
+	/*if the viewport is equal to 750px 0r less than that*/
+	@media only screen and (max-width:750px){
+		.subscribe-us-area button{
+		position: relative;
+		left: 35%;
+		top: 2%!important;
+			
+	}
+		form{
+		padding: 3% 0%!important;
+		position: relative;
+		left: 6%;
+		
+	}
+	}
+	/*if the viewport is equal to 750px 0r less than that*/
+	@media only screen and (min-width:550px){
+		form{
+		padding: 3% 6% !important;
+		position: relative;
+		right: 10%;
+			
+		}
+	}
+	/*if the viewport is equal to 750px 0r less than that*/
+	@media only screen and (max-width:600px){
+		form{
+		padding: 3% 6% !important;
+		position: relative;
+		left: -18%;
+			
+		}
+		
+	}
+@media only screen and (min-width:601px){
+	form{
+		padding: 3% 6% !important;
+		position: relative;
+		left: -16%;
+}
+	.subscribe-us-area button{
+		position: relative;
+		left: 50%;
+		
+	}
+}
+@media only screen and (min-width:650px){
+	form{
+		padding: 3% 6% !important;
+		position: relative;
+		left: -12%;
+}
+}
+@media only screen and (min-width:700px){
+	form{
+		padding: 3% 6% !important;
+		position: relative;
+		left: -10%;
+}
+}
+@media only screen and (min-width:750px){
+	form{
+		padding: 3% 6% !important;
+		position: relative;
+		left: -6%;
+}
+}
+@media only screen and (min-width:801px){
+.subscribe-us-area .subscribe{
+		padding: 2%!important;
+		margin: 0%;
+	    margin-left: auto;
+	    margin-right: auto;
+	
+	}
+	.site-main .subscribe-us-area .subscribe form .input-text input{
+		width: 15rem !important;
+		padding: 0!important;
+}
+	.subscribe-us-area button{
+		position: relative;
+		left: 50%;
+		margin: 0%!important;
+}
+	@media only screen and (min-width:993px){
+		form{
+		padding: 3% 6% !important;
+		margin-left: 30%;
+		margin-right: auto;
+}
+	.subscribe-us-area button{
+		position: relative;
+		left: 40%;
+		
+	}
+	}
+  @media only screen and (min-width:1200px){
+		form{
+		padding: 3% 6% !important;
+		margin-left: 30%;
+		margin-right: auto;
+}
+	.subscribe-us-area button{
+		position: relative;
+		left: 30%;
+		
+	}
+	}
