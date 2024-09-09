@@ -1,0 +1,519 @@
+*{
+    box-sizing: border-box;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+position: relative;
+color: #2d211f;
+font-size: 16px;
+line-height: 1.8;
+margin: 0px auto;
+padding: 0px;
+}
+img{
+    max-width: 100%;
+}
+/*contenido incio pagina*/
+
+.inicio{
+    height: 800px;
+    background: #f00;
+    border-radius: 0px;
+    background: url(./imagenes/Logo.png),
+    url(./imagenes/Fondo1.jpg);
+    background-size: auto,cover;
+    background-repeat: no-repeat;
+    background-position: top 1% left 3%,center;
+    width: 100%;
+}
+.lanzador-menu{
+    position: absolute;
+    top: 0.5%;
+    left: 87%;
+    text-decoration: none;
+    color: #f4f4d9;
+    padding: 6px 10px;
+    background-color:   #d03b40;
+    border-radius: 3px;
+}
+
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 16% 0 0 0;
+    margin: 0;
+}
+h4{
+    color: white;
+    text-align: center;
+    padding: 0% 0;
+    margin: 0;
+}
+/*contenido  pagina*/
+.boxrojo{
+    width: 100%;
+    height: 350px;
+    background: #d03b40;
+}
+.boxbeige{
+    width: 100%;
+    height: 350px;
+    background: #f4f4d9;
+}
+.inicio2{
+    width: 100%;
+    height: 700px;
+    background: #f00;
+    border-radius: 0px;
+    background: url(./imagenes/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 0px;
+    text-align: center;
+}
+.boton1{
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+    color:  white;
+    padding: 6px 10px;
+    background-color: transparent;
+    border-radius: 0px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+}
+/*contenido2  pagina*/
+.boxwhite{
+    width: 100%;
+    height: 350px;
+    background: url(./imagenes/Icono1.png), white;
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: center top 2%;
+}
+.boxwhite1{
+    width: 100%;
+    height: 350px;
+    background: white;
+    background: url(./imagenes/Icono2.png), white;
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: center top 2%;
+}
+.boxwhite2{
+    width: 100%;
+    height: 350px;
+    background: white;
+    background: url(./imagenes/Icono3.png), white;
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: center top 2%;
+}
+.boxwhite3{
+    width: 100%;
+    height: 350px;
+    background: white;
+    background: url(./imagenes/Icono4.png), white;
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: center top 2%;
+}
+.boxbeige1{
+    width: 100%;
+    height: 350px;
+    background: #f4f4d9;
+}
+.boxrojo1{
+    width: 100%;
+    height: 350px;
+    background: #d03b40;
+}
+.box{
+    width: 100%;
+    height: 100px;
+    background: #241d1b;
+    margin-bottom: 0;
+}
+.text1{
+    color: #ded6c0;
+    text-align: center;
+    padding: 0% 0;
+    margin: 0;
+}
+h2{
+    color: #ded6c0;
+    text-align: center;
+    padding: 10% 0 0 0;
+    margin: 0;
+}
+.text2{
+    color: #d03b40;
+    text-align: center;
+    padding: 10% 0 0 0;
+    margin: 0;
+}
+.text3{
+    color: #d03b40;
+    text-align: center;
+    padding: 0% 0;
+    margin: 0;
+}
+.text4{
+    color: #3c3c3b;
+    font-weight: bold;
+    text-align: center;
+    padding: 30% 0 0 0;
+    margin: 0;
+}
+.text5{
+    color: #3c3c3b;
+    text-align: center;
+    padding: 0% 0;
+    margin: 0;
+}
+.text6{
+    color: white;
+    text-align: left;
+    padding: 2% 1%;
+    margin: 0;
+}
+.navegacion .menus{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #2d211f;
+    margin: 0;
+    padding: 0;
+    right: 70%;
+   }
+.navegacion{
+    background: black;
+}
+@media screen and (min-width: 700px){
+    .lanzador-menu{
+        display: none;
+    }
+    .navegacion{
+        position: absolute;
+        top: 0;
+        left: 30%;
+        background: transparent;
+        }
+    
+    .navegacion li{
+        display: inline-block;
+        margin-right: 15px;
+       }
+}
+@media screen and (min-width: 710px){
+    .lanzador-menu{
+        display: none;
+    }
+    .navegacion{
+        position: absolute;
+        top: 0;
+        left: 35%;
+        background: transparent;
+        }
+    
+    .navegacion li{
+        display: inline-block;
+        margin-right: 15px;
+       }
+}
+@media screen and (min-width: 750px){
+    .lanzador-menu{
+        display: none;
+    }
+    .navegacion{
+        position: absolute;
+        top: 0;
+        left: 35%;
+        background: transparent;
+        }
+    
+    .navegacion li{
+        display: inline-block;
+        margin-right: 15px;
+       }
+    .text4{
+    color: #3c3c3b;
+    font-weight: bold;
+    text-align: center;
+    padding: 20% 0 0 0;
+    margin: 0;
+}
+}
+@media screen and (min-width: 800px){
+    .lanzador-menu{
+        display: none;
+    }
+    .navegacion{
+        position: absolute;
+        top: 0;
+        left: 45%;
+        background: transparent;
+        }
+    
+    .navegacion li{
+        display: inline-block;
+        margin-right: 15px;
+       }
+}
+@media screen and (min-width: 950px){
+    .lanzador-menu{
+        display: none;
+    }
+    .navegacion{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background: transparent;
+        }
+    
+    .navegacion li{
+        display: inline-block;
+        margin-right: 15px;
+       }
+}
+@media screen and (min-width: 1050px){
+    .lanzador-menu{
+        display: none;
+    }
+    .navegacion{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background: transparent;
+        }
+    .navegacion li{
+        display: inline-block;
+        margin-right: 15px;
+       }
+    .boxrojo{
+    width: 50%;
+    height: 350px;
+    background: #d03b40;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+}
+.boxbeige{
+    width: 50%;
+    height: 350px;
+    background: #f4f4d9;
+    float: right;
+    margin: 0;
+    padding: 0;
+  }
+    .boton1{
+    position: relative;
+    top: 20%;
+    text-decoration: none;
+    color:  white;
+    padding: 6px 10px;
+    background-color: transparent;
+    border-radius: 0px;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+}
+    .boxbeige1{
+    width: 50%;
+    height: 350px;
+    background: #f4f4d9;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.boxrojo1{
+    width: 50%;
+    height: 350px;
+    background: #d03b40;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+    .boxwhite{
+    width: 50%;
+    height: 350px;
+    background: url(imagenes/Icono1.png), white;
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: center top 2%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.boxwhite1{
+    width: 50%;
+    height: 350px;
+    background: white;
+    background: url(imagenes/Icono2.png), white;
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: center top 2%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.boxwhite2{
+    width: 50%;
+    height: 350px;
+    background: white;
+    background: url(imagenes/Icono3.png), white;
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: center top 2%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.boxwhite3{
+    width: 50%;
+    height: 350px;
+    background: white;
+    background: url(imagenes/Icono4.png), white;
+    background-size: auto 40%;
+    background-repeat: no-repeat;
+    background-position: center top 2%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+    .text4{
+    color: #3c3c3b;
+    font-weight: bold;
+    text-align: center;
+    padding: 33% 0 0 0;
+    margin: 0;
+}
+.text5{
+    color: #3c3c3b;
+    text-align: center;
+    padding: 0% 0;
+    margin: 0;
+}
+    .box{
+    width: 100%;
+    height: 10%;
+    background: #241d1b;
+    margin-bottom: 0;
+    position: absolute;
+    top: 2500px;
+}
+ }
+
+
+@media screen and (min-width: 1240px){
+    .lanzador-menu{
+        display: none;
+    }
+    .navegacion{
+        position: absolute;
+        top: 0;
+        left: 65%;
+        background: transparent;
+        }
+    
+    .navegacion li{
+        display: inline-block;
+        margin-right: 15px;
+       }
+     .text4{
+    color: #3c3c3b;
+    font-weight: bold;
+    text-align: center;
+    padding: 25% 0 0 0;
+    margin: 0;
+}
+.text5{
+    color: #3c3c3b;
+    text-align: center;
+    padding: 0% 0;
+    margin: 0;
+}
+}
+@media screen and (min-width: 1550px){
+    .lanzador-menu{
+        display: none;
+    }
+    .navegacion{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        background: transparent;
+        }
+    .navegacion li{
+        display: inline-block;
+        margin-right: 15px;
+       }
+     .boxwhite{
+    width: 50%;
+    height: 350px;
+    background: url(imagenes/Icono1.png), white;
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: left 3% top 50%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.boxwhite1{
+    width: 50%;
+    height: 350px;
+    background: white;
+    background: url(imagenes/Icono2.png), white;
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: left 3% top 50%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.boxwhite2{
+    width: 50%;
+    height: 350px;
+    background: white;
+    background: url(imagenes/Icono3.png), white;
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: left 3% top 50%;
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+.boxwhite3{
+    width: 50%;
+    height: 350px;
+    background: white;
+    background: url(imagenes/Icono4.png), white;
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: left 3% top 50%;
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+    .text4{
+    color: #3c3c3b;
+    font-weight: bold;
+    text-align: left;
+    padding: 15% 0 0 0;
+    margin-left: 30%;
+}
+.text5{
+    color: #3c3c3b;
+    text-align: left;
+    padding: 0% 0;
+    margin-left: 30%;
+    
+}
+}
+
+
+
+
